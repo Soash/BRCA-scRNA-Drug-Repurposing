@@ -107,4 +107,4 @@ Rscript R/7_pathway_enrichment.R
 * **Full Manuscript:** The complete text detailing the methodology, parameters, and extended biological discussion is available via the linked Google Document (or provided as a PDF in this repository).
 
 **Author:** Md. Abu Sadat Soash  
-**Affiliation:** Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology (SUST), Sylhet, Bangladesh
+**Affiliation:** Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh

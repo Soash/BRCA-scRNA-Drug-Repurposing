@@ -1,0 +1,41 @@
+
+ [06:57:33] STARTING PHASE 5: DrugReSC ANALYSIS
+
+ [06:57:33] Step 1: Loading scPAS-scored data...
+
+ [06:58:24] Step 2: Preparing input for DrugReSC...
+
+ [06:58:24] Diagnostic: Phenotype Distribution
+
+    0     1 
+90259  8151 
+
+ [06:58:24] Memory cleanup: Removing Seurat object...
+             used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells   13045696  696.8   25259582  1349.1   17460535   932.5
+Vcells 1123754569 8573.6 3299986031 25176.9 9122044313 69595.7
+             used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells   13045703  696.8   25259582  1349.1   17460535   932.5
+Vcells 1123754598 8573.6 3299986031 25176.9 9122044313 69595.7
+
+ [06:58:27] Step 3: Loading drug signatures and running DrugReSC...
+[1] "Extraction of up-regulated and down-regulated signature"
+[1] "Construction of the D2C matrix"
+[1] "Runing the  AUCell"
+[1] "Calculation of drug scores"
+[1] "Running random forest"
+[1] "normalization and output"
+G3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+gG3;No encoding supplied: defaulting to UTF-8.
+g
+ [07:20:21] Step 4: Saving drug discovery reports...
+
+ [07:20:21] PHASE 5 COMPLETE! Results in: result/5_drug_discovery 

@@ -1,0 +1,354 @@
+[05:39:44] STARTING PHASE 2: INTEGRATION
+
+ [05:39:44] Step 1: Load & Merge
+Warning: Some cell names are duplicated across objects provided. Renaming to enforce unique cell names.
+
+ [05:40:16] Step 2: Basic Stats
+An object of class Seurat 
+37493 features across 98410 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 24 layers present: counts.1, counts.2, counts.3, counts.4, counts.5, counts.6, counts.7, counts.8, counts.9, counts.10, counts.11, counts.12, data.1, data.2, data.3, data.4, data.5, data.6, data.7, data.8, data.9, data.10, data.11, data.12
+Warning message:
+In LayerData.Assay5(object = x, layer = i) :
+  multiple layers are identified by counts.1 counts.2 counts.3 counts.4 counts.5 counts.6 counts.7 counts.8 counts.9 counts.10 counts.11 counts.12
+ only the first layer is used
+Genes: 27794 | Cells: 98410 
+Total Samples Integrated:  12 
+            used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells  12163908  649.7   18773214  1002.6   18773214  1002.6
+Vcells 595735520 4545.2 1503559468 11471.3 1466957816 11192.0
+            used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells  12163912  649.7   18773214  1002.6   18773214  1002.6
+Vcells 595735544 4545.2 1503559468 11471.3 1466957816 11192.0
+
+ [05:40:19] Step 3: Running SCTransform...
+G3;Running SCTransform on assay: RNA
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 21826 by 10218
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 58 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 21826 genes
+gG3;Computing corrected count matrix for 21826 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 1.017725 mins
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 22509 by 10621
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 122 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 22509 genes
+gG3;Computing corrected count matrix for 22509 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 1.161419 mins
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 21489 by 13991
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 97 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 21489 genes
+gG3;Computing corrected count matrix for 21489 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 1.291083 mins
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 21891 by 8353
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 75 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 21891 genes
+gG3;Computing corrected count matrix for 21891 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 48.43167 secs
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 24110 by 11878
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 88 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 24110 genes
+gG3;Computing corrected count matrix for 24110 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 1.179063 mins
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 23039 by 8903
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 126 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 23039 genes
+gG3;Computing corrected count matrix for 23039 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 1.030964 mins
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 19490 by 4846
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 4846 cells
+gG3;Found 22 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 19490 genes
+gG3;Computing corrected count matrix for 19490 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 29.97046 secs
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 19348 by 2487
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 2487 cells
+gG3;Found 13 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 19348 genes
+gG3;Computing corrected count matrix for 19348 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 14.9633 secs
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 20912 by 4360
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 4360 cells
+gG3;Found 15 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 20912 genes
+gG3;Computing corrected count matrix for 20912 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 25.23746 secs
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 22403 by 9699
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 98 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 22403 genes
+gG3;Computing corrected count matrix for 22403 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 54.01333 secs
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 21533 by 8171
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 5000 cells
+gG3;Found 51 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 21533 genes
+gG3;Computing corrected count matrix for 21533 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 41.23981 secs
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+gG3;Calculating cell attributes from input UMI matrix: log_umi
+gG3;Variance stabilizing transformation of count matrix of size 22385 by 4883
+gG3;Model formula is y ~ log_umi
+gG3;Get Negative Binomial regression parameters per gene
+gG3;Using 2000 genes, 4883 cells
+gG3;Found 14 outliers - those will be ignored in fitting/regularization step
+
+gG3;Second step: Get residuals using fitted parameters for 22385 genes
+gG3;Computing corrected count matrix for 22385 genes
+gG3;Calculating gene attributes
+gG3;Wall clock passed: Time difference of 29.75416 secs
+gG3;Determine variable features
+gG3;Centering data matrix
+g  |                                                                                               |                                                                                       |   0%  |                                                                                               |======================                                                                 |  25%  |                                                                                               |============================================                                           |  50%  |                                                                                               |=================================================================                      |  75%  |                                                                                               |=======================================================================================| 100%
+G3;Place corrected count matrix in counts slot
+gG3;Set default assay to SCT
+g
+
+ [05:54:00] Step 4: Running PCA...
+G3;PC_ 1 
+Positive:  MGP, IGFBP7, TAGLN, AZGP1, AGR2, KRT19, ACTA2, KRT18, SPARC, XBP1 
+	   KRT8, MYL9, COX6C, TFF3, CLDN4, TACSTD2, SPARCL1, ADIRF, APOD, ANKRD30A 
+	   MUCL1, CALD1, PIP, DCN, CD24, CLU, IGFBP5, GATA3, TPM1, COL3A1 
+Negative:  CD74, HLA-DRA, CCL3, APOE, CCL4, HLA-DRB1, FTL, HLA-DPA1, CCL4L2, C1QB 
+	   HLA-DPB1, IL1B, TYROBP, C1QC, APOC1, SPP1, C1QA, RGS1, HLA-DQB1, TGFBI 
+	   FCER1G, AIF1, HLA-DQA1, LYZ, CD14, MS4A6A, FCGR3A, RNASE1, LAPTM5, HLA-DRB5 
+PC_ 2 
+Positive:  IGFBP7, TAGLN, ACTA2, SPARC, SPARCL1, COL1A2, MYL9, DCN, COL3A1, COL1A1 
+	   CALD1, POSTN, TPM2, LUM, COL6A2, BGN, CCN2, SFRP2, TIMP3, FN1 
+	   COL6A1, RGS5, A2M, COL4A1, COL6A3, THY1, NDUFA4L2, MFGE8, VIM, CAV1 
+Negative:  CCL5, CD69, CD52, TRBC2, AGR2, KRT19, CD2, TRAC, MALAT1, AZGP1 
+	   TPSB2, CCL4, KRT18, GNLY, NKG7, CD3D, CLDN4, TRBC1, ANKRD30A, XBP1 
+	   KRT8, ZNF683, IFNG, COX6C, GATA3, DUSP2, TFF3, PTPRC, CD7, TACSTD2 
+PC_ 3 
+Positive:  MGP, APOE, FTL, APOC1, AZGP1, KRT19, C1QB, AGR2, SPP1, C1QC 
+	   XBP1, KRT18, CTSB, CLDN4, MUCL1, PIP, TFF3, C1QA, KRT8, FTH1 
+	   CD24, TACSTD2, GPNMB, HLA-DRA, PSAP, CTSL, STC2, COX6C, CST3, LYZ 
+Negative:  CCL5, CD69, CD52, TRBC2, TRAC, CD2, CCL4, NKG7, GNLY, CD3D 
+	   ZNF683, IL32, TRBC1, IFNG, S100A4, PTPRC, CD7, XCL1, IL7R, HCST 
+	   CD3E, GZMA, DUSP2, CD8A, CST7, GZMB, CCL4L2, RGS1, XCL2, CD96 
+PC_ 4 
+Positive:  IGFBP7, SPARCL1, CD74, PLVAP, ACKR1, A2M, HLA-DRA, GNG11, AQP1, RAMP2 
+	   ESAM, COL4A1, CLEC14A, ADGRL4, HLA-DPA1, HLA-DRB1, EMCN, HLA-DPB1, CD34, FABP4 
+	   PECAM1, CLDN5, CAV1, CALCRL, TM4SF1, VWF, RAMP3, COL4A2, TSPAN7, MCAM 
+Negative:  DCN, COL1A1, LUM, COL1A2, COL3A1, POSTN, SFRP2, FN1, SPP1, FTL 
+	   COL6A3, VCAN, APOE, APOC1, CTSK, COL6A1, COL6A2, APOD, LGALS1, CCDC80 
+	   THBS2, CXCL14, CCN2, CTSB, COL5A1, AEBP1, SFRP4, COL5A2, GPNMB, C1S 
+PC_ 5 
+Positive:  SPP1, FTL, APOE, APOC1, RNASE1, CTSB, CTSL, GPNMB, TGFBI, CD52 
+	   CCL2, LGMN, CD36, HMOX1, VIM, FABP4, FN1, ACP5, PSAP, CCL5 
+	   TYROBP, PLIN2, PLVAP, ACKR1, IGFBP7, SPARCL1, CSTB, PLD3, CD163, GNG11 
+Negative:  CCL4, CCL3, CCL4L2, IL1B, HLA-DRA, CD74, HLA-DPA1, HLA-DPB1, HLA-DRB1, RGS1 
+	   COL1A1, MGP, COL1A2, DCN, P2RY13, COL3A1, HLA-DQA1, LUM, POSTN, HLA-DQB1 
+	   CD83, SFRP2, GPR183, C3, TNF, TAGLN, SGK1, COL6A3, BCL2A1, DUSP2 
+gWarning message:
+In PrepDR(object = object, features = features, verbose = verbose) :
+  The following 178 features requested have not been scaled (running reduction without them): CXCL8, TPSAB1, SCGB2A2, CCL3L3, CPA3, MMP7, IGLC2, KRT14, SCGB1D2, CXCL3, LTF, TFF1, IGLC3, CCL8, FDCSP, IGHG4, KRT17, CXCL1, MMP9, SCGB2A1, CCL20, IGHA2, IGHG2, CPB1, CXCL9, IGHG3, CXCL5, IL6, CCL19, CCL18, SELE, KRT6B, CCL7, HMGCS2, PPP1R2C, INHBA, IGKV4-1, GLRA3, CRISP3, IGLV2-14, MS4A2, KLK7, CXCL11, TAT, PI15, PTGS2, FCN1, CCL21, CD1C, IL1R2, AC093001.1, TRDC, PIGR, OPRPN, CH25H, MARCO, CYP4Z1, IGHV3-7, KLK5, IGHV1-3, GATA2, OSM, CCL22, CCL13, FCGR3B, PI3, KLK11, TREM1, LCN2, MT1H, IGHV3-23, PLN, IGKV3-11, SOSTDC1, CTHRC1, IGHGP, CALML5, MSMB, ACKR3, IGHV4-39, TNFRSF9, IGKV1-5, EREG, ESM1, S100A12, CLDN1, PLA2G7, KRT23, IGHD, LAMP3, IDO1, PHGR1, IL1A, RGS13, IGHV3-74, IGLV3-1, CLCA2, CSF2, IGLV1-44, HBB, STAC2, CRABP1, AC009570.2, IGLV2-11, SPINK1, MMP1, NR4A3, DKK1, TNC, ASPN, THRSP, RRM2, GABRP, GEM, KCNC2, C5orf46, AC084871.2, CD300E, APLNR, CLEC4E, AC114977.1, KLK6, TNFSF9, KRT16, CALML [... truncated]
+
+ [05:56:02] Step 5: Running Harmony Integration...
+The `features` argument is ignored by `HarmonyIntegration`.
+This message is displayed once per session.
+G3;Transposing data matrix
+gG3;Using automatic lambda estimation
+gG3;Initializing state using k-means centroids initialization
+gG3;Harmony 1/10
+g0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+G3;Harmony 2/10
+g0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+G3;Harmony 3/10
+g0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+G3;Harmony 4/10
+g0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+G3;Harmony 5/10
+g0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+G3;Harmony 6/10
+g0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+G3;Harmony converged after 6 iterations
+g
+ [06:00:43] Step 6: Running UMAP and Clustering...
+G3;Computing nearest neighbor graph
+gG3;Computing SNN
+gModularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 98410
+Number of edges: 3702619
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9399
+Number of communities: 39
+Elapsed time: 45 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+G3;06:02:14 UMAP embedding parameters a = 0.9922 b = 1.112
+gG3;06:02:14 Read 98410 rows and found 30 numeric columns
+gG3;06:02:14 Using Annoy for neighbor search, n_neighbors = 30
+gG3;06:02:14 Building Annoy index with metric = cosine, n_trees = 50
+gG3;0%   10   20   30   40   50   60   70   80   90   100%
+gG3;[----|----|----|----|----|----|----|----|----|----|
+gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;*gG3;|
+gG3;06:02:37 Writing NN index file to temp file /tmp/Rtmpfw0j9M/file9ee313846bf
+gG3;06:02:37 Searching Annoy index using 1 thread, search_k = 3000
+gG3;06:03:29 Annoy recall = 100%
+gG3;06:03:30 Commencing smooth kNN distance calibration using 1 threadgG3; with target n_neighbors = 30
+gG3;06:03:35 Initializing from normalized Laplacian + noise (using RSpectra)
+gG3;06:04:00 Commencing optimization for 200 epochs, with 4491362 positive edges
+gG3;06:04:00 Using rng type: pcg
+gUsing method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+G3;06:05:02 Optimization finished
+g
+ [06:05:02] Step 7: Saving Phase 2 Plots...
+null device 
+          1 
+
+ [06:05:14] Step 8: Saving integrated qs2...
+[06:05:22] PHASE 2 COMPLETE!

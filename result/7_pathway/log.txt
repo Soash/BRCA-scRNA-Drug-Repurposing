@@ -1,0 +1,16 @@
+[09:07:36] STARTING PHASE 6: PATHWAY ENRICHMENT
+[09:07:36] Step 1: Loading scPAS-scored Seurat object...
+[09:08:42] Step 2: Reconciling SCT models for FindMarkers...
+G3;Found 12 SCT models. Recorrecting SCT counts using minimum median counts: 1761
+g  |                                                  | 0 % ~calculating    |+++++                                             | 8 % ~06m 23s        |+++++++++                                         | 17% ~06m 20s        |+++++++++++++                                     | 25% ~06m 06s        |+++++++++++++++++                                 | 33% ~05m 03s        |+++++++++++++++++++++                             | 42% ~04m 16s        |+++++++++++++++++++++++++                         | 50% ~03m 33s        |++++++++++++++++++++++++++++++                    | 58% ~02m 40s        |++++++++++++++++++++++++++++++++++                | 67% ~01m 55s        |++++++++++++++++++++++++++++++++++++++            | 75% ~01m 21s        |++++++++++++++++++++++++++++++++++++++++++        | 83% ~55s            |++++++++++++++++++++++++++++++++++++++++++++++    | 92% ~27s            |++++++++++++++++++++++++++++++++++++++++++++++++++| 100% elapsed=05m 13s
+[09:14:51] Step 3: Calculating DEGs between scPAS+ and scPAS- cells...
+[09:14:54] Step 4: Filtering genes and converting IDs...
+Found 976 significant upregulated genes in scPAS+ cells.
+G3;'select()' returned 1:1 mapping between keys and columns
+g[09:14:55] Step 5: Running Enrichment Analyses...
+G3;Reading KEGG annotation online: "https://rest.kegg.jp/link/hsa/pathway"...
+gG3;Reading KEGG annotation online: "https://rest.kegg.jp/list/pathway/hsa"...
+g[09:16:01] Step 6: Saving results and generating plots...
+null device 
+          1 
+[09:16:02] PHASE 6 COMPLETE!

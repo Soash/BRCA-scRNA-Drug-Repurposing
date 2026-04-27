@@ -1,0 +1,47 @@
+[06:27:03] STARTING PHASE 4: scPAS RISK SCORING
+
+ [06:27:49] scPAS start
+G3;
+Attaching package: ‘Matrix’
+
+gG3;The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+g[1] "Step 1:Quantile normalization of bulk data."
+[1] "Step2: Imputation of missing values in single cell RNA-sequencing data with KNN...."
+Warning: Layer counts isn't present in the assay object; returning NULL
+[1] "Step 2: Extracting single-cell expression profiles...."
+[1] "Step 3: Constructing a gene-gene similarity by single cell data...."
+G3;Building SNN based on a provided distance matrix
+gG3;Computing SNN
+g[1] "Step 4: Optimizing the network-regularized sparse regression model...."
+[1] "Perform cox regression on the given clinical outcomes:"
+[1] "alpha = 0.01"
+[1] "lambda = 2.22574607635545"
+[1] "scPAS identified 310 rick+ features and 376 rick- features."
+[1] "The percentage of selected feature is: 26.497%"
+
+[1] "|**************************************************|"
+[1] "Step 5: calculating quantified risk scores...."
+[1] "Step 6: qualitative identification by permutation test program with 2000 times random perturbations"
+[1] "Finished."
+Warning messages:
+1: Residuals not computed for the following requested features: CXCL8, TPSAB1, SCGB2A2, CCL3L3, CPA3, MMP7, IGLC2, KRT14, SCGB1D2, CXCL3, LTF, TFF1, IGLC3, CCL8, FDCSP, IGHG4, KRT17, CXCL1, MMP9, SCGB2A1, CCL20, IGHA2, IGHG2, CPB1, CXCL9, IGHG3, CXCL5, IL6, CCL19, CCL18, SELE, KRT6B, CCL7, HMGCS2, PPP1R2C, INHBA, IGKV4-1, GLRA3, CRISP3, IGLV2-14, MS4A2, KLK7, CXCL11, TAT, PI15, PTGS2, FCN1, CCL21, CD1C, IL1R2, AC093001.1, TRDC, PIGR, OPRPN, CH25H, MARCO, CYP4Z1, IGHV3-7, KLK5, IGHV1-3, GATA2, OSM, CCL22, CCL13, FCGR3B, PI3, KLK11, TREM1, LCN2, MT1H, IGHV3-23, PLN, IGKV3-11, SOSTDC1, CTHRC1, IGHGP, CALML5, MSMB, ACKR3, IGHV4-39, TNFRSF9, IGKV1-5, EREG, ESM1, S100A12, CLDN1, PLA2G7, KRT23, IGHD, LAMP3, IDO1, PHGR1, IL1A, RGS13, IGHV3-74, IGLV3-1, CLCA2, CSF2, IGLV1-44, HBB, STAC2, CRABP1, AC009570.2, IGLV2-11, SPINK1, MMP1, NR4A3, DKK1, TNC, ASPN, THRSP, RRM2, GABRP, GEM, KCNC2, C5orf46, AC084871.2, CD300E, APLNR, CLEC4E, AC114977.1, KLK6, TNFSF9, KRT16, CALML3, ADAMDEC1, CD1E, MIR3945HG, C [... truncated] 
+2: In .M2v(x) : sparse->dense coercion: allocating vector of size 1.9 GiB
+3: In asMethod(object) :
+  sparse->dense coercion: allocating vector of size 1.5 GiB
+
+ [06:51:11] scPAS end
+
+ [06:51:11] Generating Visualizations...
+null device 
+          1 
+
+ [06:51:17] Step 4: Compiling Detailed Risk Reports...
+
+ [06:51:17] Reports successfully written to: result/4_scPAS 
+ 
+ 
+ 
+ 

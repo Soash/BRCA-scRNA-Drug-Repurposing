@@ -1,0 +1,613 @@
+[05:10:48] STARTING SAMPLE 1 of 12 : GSM8061824 
+
+ [05:10:48] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 13651 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 28906 | Cells (Raw): 13651 
+
+ [05:11:11] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 13651 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:11:19] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 11772 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 28313 | Cells (filter): 11772 
+
+ [05:11:22] Step D: Running scDblFinder...
+G3;Creating ~9418 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 1861 cells excluded from training.
+gG3;iter=1, 1995 cells excluded from training.
+gG3;iter=2, 1938 cells excluded from training.
+gG3;Threshold found:0.459
+gG3;1554 (13.2%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 10218 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 27794 | Cells (Raw): 10218 
+
+ [05:12:11] Step E: Finalizing logs...
+Sample: GSM8061824 | Tissue: Tumor 
+ [Thresholds Applied]
+ - Max MT%: 18.26 
+ - nFeature Range: 200 - 11555 
+ - nCount Range: 500 - 82505 
+ [Counts Tracking]
+ - Cells: 13651 (Raw) -> 10218 (Final Singlets)
+ - Genes: 28906 (Raw) -> 27794 (Active)
+ - Doublets removed: 1554 
+ --------------------------------------------------
+[05:12:13] STARTING SAMPLE 2 of 12 : GSM8061825 
+
+ [05:12:13] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 13240 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 28273 | Cells (Raw): 13240 
+
+ [05:12:33] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 13240 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:12:41] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 12085 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 28122 | Cells (filter): 12085 
+
+ [05:12:44] Step D: Running scDblFinder...
+G3;Creating ~9668 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 1694 cells excluded from training.
+gG3;iter=1, 1926 cells excluded from training.
+gG3;iter=2, 2025 cells excluded from training.
+gG3;Threshold found:0.45
+gG3;1464 (12.1%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 10621 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 27653 | Cells (Raw): 10621 
+
+ [05:13:41] Step E: Finalizing logs...
+Sample: GSM8061825 | Tissue: Tumor 
+ [Thresholds Applied]
+ - Max MT%: 13.16 
+ - nFeature Range: 312 - 18565 
+ - nCount Range: 500 - 143289 
+ [Counts Tracking]
+ - Cells: 13240 (Raw) -> 10621 (Final Singlets)
+ - Genes: 28273 (Raw) -> 27653 (Active)
+ - Doublets removed: 1464 
+ --------------------------------------------------
+[05:13:43] STARTING SAMPLE 3 of 12 : GSM8061826 
+
+ [05:13:43] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 17328 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 28229 | Cells (Raw): 17328 
+
+ [05:13:58] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 17328 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:14:05] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 15925 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 27544 | Cells (filter): 15925 
+
+ [05:14:07] Step D: Running scDblFinder...
+G3;Creating ~12740 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 2559 cells excluded from training.
+gG3;iter=1, 2724 cells excluded from training.
+gG3;iter=2, 2753 cells excluded from training.
+gG3;Threshold found:0.418
+gG3;1934 (12.1%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 13991 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 27120 | Cells (Raw): 13991 
+
+ [05:15:15] Step E: Finalizing logs...
+Sample: GSM8061826 | Tissue: Tumor 
+ [Thresholds Applied]
+ - Max MT%: 14.32 
+ - nFeature Range: 200 - 11162 
+ - nCount Range: 500 - 50096 
+ [Counts Tracking]
+ - Cells: 17328 (Raw) -> 13991 (Final Singlets)
+ - Genes: 28229 (Raw) -> 27120 (Active)
+ - Doublets removed: 1934 
+ --------------------------------------------------
+[05:15:18] STARTING SAMPLE 4 of 12 : GSM8061827 
+
+ [05:15:18] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 10064 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 27799 | Cells (Raw): 10064 
+
+ [05:15:30] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 10064 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:15:36] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 9264 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 27582 | Cells (filter): 9264 
+
+ [05:15:38] Step D: Running scDblFinder...
+G3;Creating ~7412 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 1377 cells excluded from training.
+gG3;iter=1, 1414 cells excluded from training.
+gG3;iter=2, 1414 cells excluded from training.
+gG3;Threshold found:0.462
+gG3;911 (9.8%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 8353 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 27237 | Cells (Raw): 8353 
+
+ [05:16:12] Step E: Finalizing logs...
+Sample: GSM8061827 | Tissue: Tumor 
+ [Thresholds Applied]
+ - Max MT%: 20 
+ - nFeature Range: 200 - 26886 
+ - nCount Range: 500 - 267259 
+ [Counts Tracking]
+ - Cells: 10064 (Raw) -> 8353 (Final Singlets)
+ - Genes: 27799 (Raw) -> 27237 (Active)
+ - Doublets removed: 911 
+ --------------------------------------------------
+[05:16:14] STARTING SAMPLE 5 of 12 : GSM8061828 
+
+ [05:16:14] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 14807 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 30046 | Cells (Raw): 14807 
+
+ [05:16:31] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 14807 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:16:38] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 13470 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 29868 | Cells (filter): 13470 
+
+ [05:16:40] Step D: Running scDblFinder...
+G3;Creating ~10776 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 2469 cells excluded from training.
+gG3;iter=1, 2621 cells excluded from training.
+gG3;iter=2, 2668 cells excluded from training.
+gG3;Threshold found:0.441
+gG3;1592 (11.8%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 11878 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 29469 | Cells (Raw): 11878 
+
+ [05:17:27] Step E: Finalizing logs...
+Sample: GSM8061828 | Tissue: Tumor 
+ [Thresholds Applied]
+ - Max MT%: 16.29 
+ - nFeature Range: 232 - 10418 
+ - nCount Range: 500 - 65902 
+ [Counts Tracking]
+ - Cells: 14807 (Raw) -> 11878 (Final Singlets)
+ - Genes: 30046 (Raw) -> 29469 (Active)
+ - Doublets removed: 1592 
+ --------------------------------------------------
+[05:17:30] STARTING SAMPLE 6 of 12 : GSM8061829 
+
+ [05:17:30] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 14450 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 28769 | Cells (Raw): 14450 
+
+ [05:17:53] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 14450 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:18:02] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 10010 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 28176 | Cells (filter): 10010 
+
+ [05:18:05] Step D: Running scDblFinder...
+G3;Creating ~8008 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 1505 cells excluded from training.
+gG3;iter=1, 1717 cells excluded from training.
+gG3;iter=2, 1740 cells excluded from training.
+gG3;Threshold found:0.54
+gG3;1107 (11.1%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 8903 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 27798 | Cells (Raw): 8903 
+
+ [05:18:49] Step E: Finalizing logs...
+Sample: GSM8061829 | Tissue: Tumor 
+ [Thresholds Applied]
+ - Max MT%: 20 
+ - nFeature Range: 532 - 14976 
+ - nCount Range: 586 - 134418 
+ [Counts Tracking]
+ - Cells: 14450 (Raw) -> 8903 (Final Singlets)
+ - Genes: 28769 (Raw) -> 27798 (Active)
+ - Doublets removed: 1107 
+ --------------------------------------------------
+[05:18:51] STARTING SAMPLE 7 of 12 : GSM8061830 
+
+ [05:18:51] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 5706 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 26650 | Cells (Raw): 5706 
+
+ [05:18:56] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 5706 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:19:00] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 5295 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 26206 | Cells (filter): 5295 
+
+ [05:19:01] Step D: Running scDblFinder...
+G3;Creating ~4236 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 619 cells excluded from training.
+gG3;iter=1, 743 cells excluded from training.
+gG3;iter=2, 780 cells excluded from training.
+gG3;Threshold found:0.62
+gG3;449 (8.5%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 4846 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 25903 | Cells (Raw): 4846 
+
+ [05:19:21] Step E: Finalizing logs...
+Sample: GSM8061830 | Tissue: Normal 
+ [Thresholds Applied]
+ - Max MT%: 8.24 
+ - nFeature Range: 200 - 31274 
+ - nCount Range: 500 - 377773 
+ [Counts Tracking]
+ - Cells: 5706 (Raw) -> 4846 (Final Singlets)
+ - Genes: 26650 (Raw) -> 25903 (Active)
+ - Doublets removed: 449 
+ --------------------------------------------------
+[05:19:22] STARTING SAMPLE 8 of 12 : GSM8061831 
+
+ [05:19:22] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 2751 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 25812 | Cells (Raw): 2751 
+
+ [05:19:25] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 2751 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:19:27] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 2632 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 25675 | Cells (filter): 2632 
+
+ [05:19:28] Step D: Running scDblFinder...
+G3;Creating ~2106 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 529 cells excluded from training.
+gG3;iter=1, 525 cells excluded from training.
+gG3;iter=2, 518 cells excluded from training.
+gG3;Threshold found:0.76
+gG3;145 (5.5%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 2487 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 25423 | Cells (Raw): 2487 
+
+ [05:19:36] Step E: Finalizing logs...
+Sample: GSM8061831 | Tissue: Normal 
+ [Thresholds Applied]
+ - Max MT%: 20 
+ - nFeature Range: 200 - 13324 
+ - nCount Range: 500 - 74467 
+ [Counts Tracking]
+ - Cells: 2751 (Raw) -> 2487 (Final Singlets)
+ - Genes: 25812 (Raw) -> 25423 (Active)
+ - Doublets removed: 145 
+ --------------------------------------------------
+[05:19:37] STARTING SAMPLE 9 of 12 : GSM8061832 
+
+ [05:19:37] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 4917 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 27136 | Cells (Raw): 4917 
+
+ [05:19:42] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 4917 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:19:45] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 4685 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 26962 | Cells (filter): 4685 
+
+ [05:19:46] Step D: Running scDblFinder...
+G3;Creating ~3748 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 878 cells excluded from training.
+gG3;iter=1, 916 cells excluded from training.
+gG3;iter=2, 872 cells excluded from training.
+gG3;Threshold found:0.629
+gG3;325 (6.9%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 4360 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 26686 | Cells (Raw): 4360 
+
+ [05:20:01] Step E: Finalizing logs...
+Sample: GSM8061832 | Tissue: Normal 
+ [Thresholds Applied]
+ - Max MT%: 16.1 
+ - nFeature Range: 200 - 23674 
+ - nCount Range: 500 - 137860 
+ [Counts Tracking]
+ - Cells: 4917 (Raw) -> 4360 (Final Singlets)
+ - Genes: 27136 (Raw) -> 26686 (Active)
+ - Doublets removed: 325 
+ --------------------------------------------------
+[05:20:02] STARTING SAMPLE 10 of 12 : GSM8061833 
+
+ [05:20:02] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 12421 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 28543 | Cells (Raw): 12421 
+
+ [05:20:17] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 12421 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:20:24] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 11048 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 28125 | Cells (filter): 11048 
+
+ [05:20:26] Step D: Running scDblFinder...
+G3;Creating ~8839 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 2051 cells excluded from training.
+gG3;iter=1, 2167 cells excluded from training.
+gG3;iter=2, 2296 cells excluded from training.
+gG3;Threshold found:0.499
+gG3;1349 (12.2%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 9699 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 27663 | Cells (Raw): 9699 
+
+ [05:21:09] Step E: Finalizing logs...
+Sample: GSM8061833 | Tissue: Normal 
+ [Thresholds Applied]
+ - Max MT%: 20 
+ - nFeature Range: 200 - 30377 
+ - nCount Range: 500 - 223357 
+ [Counts Tracking]
+ - Cells: 12421 (Raw) -> 9699 (Final Singlets)
+ - Genes: 28543 (Raw) -> 27663 (Active)
+ - Doublets removed: 1349 
+ --------------------------------------------------
+[05:21:11] STARTING SAMPLE 11 of 12 : GSM8061834 
+
+ [05:21:11] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 9512 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 27921 | Cells (Raw): 9512 
+
+ [05:21:18] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 9512 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:21:23] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 8981 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 27731 | Cells (filter): 8981 
+
+ [05:21:24] Step D: Running scDblFinder...
+G3;Creating ~7185 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 1228 cells excluded from training.
+gG3;iter=1, 1414 cells excluded from training.
+gG3;iter=2, 1447 cells excluded from training.
+gG3;Threshold found:0.488
+gG3;810 (9%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 8171 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 27389 | Cells (Raw): 8171 
+
+ [05:21:50] Step E: Finalizing logs...
+Sample: GSM8061834 | Tissue: Normal 
+ [Thresholds Applied]
+ - Max MT%: 19.41 
+ - nFeature Range: 304 - 5190 
+ - nCount Range: 500 - 36438 
+ [Counts Tracking]
+ - Cells: 9512 (Raw) -> 8171 (Final Singlets)
+ - Genes: 27921 (Raw) -> 27389 (Active)
+ - Doublets removed: 810 
+ --------------------------------------------------
+[05:21:52] STARTING SAMPLE 12 of 12 : GSM8061835 
+
+ [05:21:52] Step A: Loading 10X data...
+An object of class Seurat 
+37493 features across 5526 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 1 layer present: counts
+Genes (Raw): 28792 | Cells (Raw): 5526 
+
+ [05:21:59] Step B: Calculating QC Metrics...
+An object of class Seurat 
+37493 features across 5526 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+
+ [05:22:03] Step C: Applying Dynamic 3-MAD Filter...
+An object of class Seurat 
+37493 features across 5321 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (filter): 28659 | Cells (filter): 5321 
+
+ [05:22:04] Step D: Running scDblFinder...
+G3;Creating ~4257 artificial doublets...
+gG3;Dimensional reduction
+gG3;Evaluating kNN...
+gG3;Training model...
+gG3;iter=0, 875 cells excluded from training.
+gG3;iter=1, 970 cells excluded from training.
+gG3;iter=2, 980 cells excluded from training.
+gG3;Threshold found:0.707
+gG3;438 (8.2%) doublets called
+g
+
+An object of class Seurat 
+37493 features across 4883 samples within 1 assay 
+Active assay: RNA (37493 features, 0 variable features)
+ 2 layers present: counts, data
+Genes (Raw): 28403 | Cells (Raw): 4883 
+
+ [05:22:23] Step E: Finalizing logs...
+Sample: GSM8061835 | Tissue: Normal 
+ [Thresholds Applied]
+ - Max MT%: 20 
+ - nFeature Range: 200 - 27337 
+ - nCount Range: 500 - 200016 
+ [Counts Tracking]
+ - Cells: 5526 (Raw) -> 4883 (Final Singlets)
+ - Genes: 28792 (Raw) -> 28403 (Active)
+ - Doublets removed: 438 
+ --------------------------------------------------
+There were 12 warnings (use warnings() to see them)

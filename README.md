@@ -104,7 +104,8 @@ Rscript R/7_pathway_enrichment.R
 
 ## 📖 Data Availability & Manuscript
 * **Raw Data Source:** Gene Expression Omnibus (GEO) Accession [GSE254991](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254991)
-* **Full Manuscript:** The complete text detailing the methodology, parameters, and extended biological discussion is available via the linked Google Document (or provided as a PDF in this repository).
+* **Full Manuscript:** The complete text detailing the methodology, parameters, and extended biological discussion is available via the linked Google Document.
 
-**Author:** Md. Abu Sadat Soash  
-**Affiliation:** Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh
+## 👨‍💻 Author
+Md Abu Sadat Soash | https://www.linkedin.com/in/soash-sadat/ | soash.sadat@gmail.com
+

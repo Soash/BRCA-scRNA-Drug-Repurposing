@@ -12,7 +12,7 @@
 
 ---
 
-## 📄 Abstract
+## Abstract
 
 The tumor microenvironment (TME) is a complex ecosystem where distinct cellular states dictate disease progression and therapeutic resistance. In this study, we performed a comprehensive single-cell transcriptomic dissection of the breast cancer TME using publicly available scRNA-seq data (12 paired samples across 6 patients; 98,410 high-quality cells). Unsupervised clustering identified 39 distinct cellular subpopulations. By applying the Single-Cell Phenotype-Associated Signatures (**scPAS**) risk-scoring algorithm mapped against TCGA-BRCA survival metrics, we discovered a highly immunosuppressive macrophage subpopulation that serves as a primary driver of high-risk clinical phenotypes. 
 
@@ -20,7 +20,7 @@ Pathway enrichment analysis revealed that these `scPAS+` macrophages are hyper-m
 
 ---
 
-## 📌 Key Findings & Study Highlights
+## Key Findings & Study Highlights
 
 * **Primary Prognostic Culprit:** Tumor-associated macrophages (TAMs) are the dominant drivers of poor clinical outcomes, with **52.38%** of annotated macrophages exhibiting the high-risk (`scPAS+`) survival phenotype, followed by unspecified myeloid cells (36.31%), IgG plasma cells (35.15%), inflammatory macrophages (28.74%), and pericytes (27.48%).
 * **Scale of Analysis:** 124,373 raw single cells filtered down to **98,410 high-fidelity singlets** across 12 paired samples (6 primary breast tumor, 6 adjacent normal).
@@ -32,7 +32,7 @@ Pathway enrichment analysis revealed that these `scPAS+` macrophages are hyper-m
 
 ---
 
-## 📊 Visual Highlights
+## Visual Highlights
 
 <p align="center">
   <table>
@@ -63,7 +63,7 @@ Pathway enrichment analysis revealed that these `scPAS+` macrophages are hyper-m
 
 ---
 
-## 💊 Top In Silico Drug Repurposing Candidates
+## Top In Silico Drug Repurposing Candidates
 
 As detailed in **Table 1** of the manuscript, dual *in silico* profiling against the Broad Institute LINCS L1000 perturbational database yielded highly concordant therapeutic candidates:
 
@@ -80,7 +80,7 @@ As detailed in **Table 1** of the manuscript, dual *in silico* profiling against
 
 ---
 
-## 📋 Supplementary Quality Control Metrics
+## Supplementary Quality Control Metrics
 
 Summary of the dynamic 3-MAD filtering and `scDblFinder` doublet detection across all 12 paired samples (**Supplementary Table 1**):
 
@@ -102,7 +102,7 @@ Summary of the dynamic 3-MAD filtering and `scDblFinder` doublet detection acros
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 BRCA-scRNA-Drug-Repurposing/
@@ -137,7 +137,7 @@ BRCA-scRNA-Drug-Repurposing/
 
 ---
 
-## 💻 Computational Environment & Requirements
+## Computational Environment & Requirements
 
 The pipeline processes high-dimensional matrices (98,410 cells $\times$ 39 clusters) against high-throughput perturbation libraries (LINCS L1000). To avoid memory bottlenecks, execution was conducted on **Google Cloud Platform (GCP)**:
 
@@ -150,7 +150,7 @@ The pipeline processes high-dimensional matrices (98,410 cells $\times$ 39 clust
 
 ---
 
-## 🚀 Reproduction Guide
+## Reproduction Guide
 
 ### 1. Build Reference Databases
 Generate the required `.rds` and `.h5ad` reference matrices:
@@ -188,7 +188,7 @@ Rscript R/7_graph.R
 
 ---
 
-## 📚 References
+## References
 
 1. **Dataset Source:** Wen, Z., Liu, T., Xu, X., Acharya, N. et al. (2025). *Interleukin-16 enhances anti-tumor immune responses by establishing a Th1 cell-macrophage crosstalk through reprogramming glutamine metabolism in mice.* **Nature Communications**, 16(1), 2362. [GEO Accession: GSE254991](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE254991).
 2. **scPAS Algorithm:** Zhao, X., et al. (2024). *scPAS: single-cell phenotype-associated signatures for identifying vulnerable subpopulations and drug repurposing.* **Briefings in Bioinformatics**, 25(2), bbae073.

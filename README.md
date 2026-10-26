@@ -1,4 +1,4 @@
-# 🧬 Targeting High-Risk Macrophage Phenotypes in the Breast Cancer Microenvironment: A Single-Cell Transcriptomic and Drug Repurposing Analysis
+# Targeting High-Risk Macrophage Phenotypes in the Breast Cancer Microenvironment: A Single-Cell Transcriptomic and Drug Repurposing Analysis
 
 **Author(s):** Md Abu Sadat Soash, Raphael Kabir Niloy
 *Department of Genetic Engineering and Biotechnology*<br>

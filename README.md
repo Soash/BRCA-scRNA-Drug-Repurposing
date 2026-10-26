@@ -1,8 +1,8 @@
 # 🧬 Targeting High-Risk Macrophage Phenotypes in the Breast Cancer Microenvironment: A Single-Cell Transcriptomic and Drug Repurposing Analysis
 
-**Author:** Md. Abu Sadat Soash  
-**Affiliation:** Department of Genetic Engineering and Biotechnology, Shahjalal University of Science and Technology, Sylhet, Bangladesh  
-**Contact:** [soash.sadat@gmail.com](mailto:soash.sadat@gmail.com) | [LinkedIn Profile](https://www.linkedin.com/in/soash-sadat/)
+**Author(s):** Md Abu Sadat Soash, Raphael Kabir Niloy
+*Department of Genetic Engineering and Biotechnology*<br>
+*Shahjalal University of Science and Technology, Sylhet, Bangladesh*
 
 ---
 
